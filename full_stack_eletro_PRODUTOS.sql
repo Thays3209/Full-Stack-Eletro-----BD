@@ -52,9 +52,9 @@ create table pedidos(
     endereco varchar(300) not null,
     telefone varchar(20) not null,
     produto varchar(300) not null,
-    valorunit float not null,
+    valorUni float not null,
     quantidade int not null,
-    valortot float not null,
+    valorTotal float not null,
     primary key(id_fulls)
 )default charset = utf8;
 
