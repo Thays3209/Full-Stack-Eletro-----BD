@@ -76,3 +76,20 @@ create table pedidos(
 (default,'Zilda Souza',973854411,'Micro-ondas Electrolux Painel Seguro 20L- 220',2089.05,1,2089.05);
 
 (default,'Ana Pula ',973854421,'Refrigerador Consul 340L-110v',1849.00,1,1849.00);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
