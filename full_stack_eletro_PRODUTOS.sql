@@ -18,7 +18,7 @@ create table produtos(
 )default charset = utf8;
 
 
-insert into produtos (`categoria`,`descrição`,`precoAntes`,`precoDepois`,`imagem`)
+insert into produtos ( `id`,`categoria`,`descrição`,`precoAntes`,`precoDepois`,`imagem`)
 values
 (1,'GELADEIRA','Refrigerador Consul 340L-110v',2000.00,1849.00,'img//gel_consul.png');
 
