@@ -80,16 +80,4 @@ create table pedidos(
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .
