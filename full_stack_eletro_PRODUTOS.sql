@@ -11,8 +11,8 @@ create table produtos(
     id int not null auto_increment,
     categoria varchar(100) not null, 
     descricao varchar(300) not null,
-    preco float,
-    precofinal float,
+    precoAntes Afloat,
+    precoDepois float,
     imagem varchar(100),
     primary key(id)
 )default charset = utf8;
