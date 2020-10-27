@@ -48,7 +48,7 @@ values
 
 
 create table pedidos(
-    id_fulls int not null auto_increment,
+    idfulls int not null auto_increment,
     cliente varchar(100) not null, 
     endereco varchar(300) not null,
     telefone varchar(20) not null,
@@ -56,7 +56,7 @@ create table pedidos(
     valorUni float not null,
     quantidade int not null,
     valorTotal float not null,
-    primary key(id_fulls)
+    primary key(idfulls)
 )default charset = utf8;
 
 insert into produtos (`nome`,`endreco`,`telefone`,`produto`,`valoUni`,`quantidade`,`valoTotal`)
