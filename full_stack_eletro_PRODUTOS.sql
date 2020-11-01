@@ -11,17 +11,17 @@ create table produtos(
     id int not null auto_increment,
     categoria varchar(100) not null, 
     descricao varchar(300) not null,
-    precoAntes Afloat,
+    precoAntes float,
     precoDepois float,
     imagem varchar(100),
     primary key(id)
 )default charset = utf8;
 
 
-insert into produtos ( `id`,`categoria`,`descrição`,`precoAntes`,`precoDepois`,`imagem`)
+insert into produtos (`categoria`,`descrição`,`precoAntes`,`precoDepois`,`imagem`)
 
 values
-('GELADEIRA','Refrigerador Consul 340L-110v',2000.00,1849.00,'img//gel_consul.png'),
+('GELADEIRA','Refrigerador Consul 340L-110v', 2000.00, 1849.00,'img//gel_consul.png'),
 
 ('GELADEIRA','Geladeira Brastemp 375 Litros Branco 110V',2000.60,1849.90,'img//gel_brastemp.png'),
 
@@ -50,7 +50,6 @@ values
 create table pedidos(
     idfulls int not null auto_increment,
     cliente varchar(100) not null, 
-    endereco varchar(300) not null,
     telefone varchar(20) not null,
     produto varchar(300) not null,
     valorUni float not null,
@@ -59,10 +58,10 @@ create table pedidos(
     primary key(idfulls)
 )default charset = utf8;
 
-insert into produtos (`nome`,`endreco`,`telefone`,`produto`,`valoUni`,`quantidade`,`valoTotal`)
+insert into produtos (`cliente`,`telefone`,`produto`,`valoUni`,`quantidade`,`valoTotal`)
 values
 
-('João Batista Santos ',973854423,'Geladeira Brastemp 375 Litros Branco 110V',1849.90,1,1849.90),
+('João Batista Santos',973854423,'Geladeira Brastemp 375 Litros Branco 110V',1849.90,1,1849.90),
 
 ('Maria Amelia',973854424,'Refrigerador Samsung French Door Inox 110v',15429.00,1,15429.00),
 
